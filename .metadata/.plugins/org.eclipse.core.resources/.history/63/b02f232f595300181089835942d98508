@@ -1,0 +1,19 @@
+package cn.e3mall.content.service.impl;
+
+import cn.e3mall.common.utils.E3Result;
+import cn.e3mall.content.service.ContentService;
+import cn.e3mall.pojo.TbContent;
+
+/**
+ * 内容管理Service
+ * @author wld
+ *
+ */
+public class ContentServiceImpl implements ContentService {
+
+	@Override
+	public E3Result addContent(TbContent tbContent) {
+		return null;
+	}
+
+}

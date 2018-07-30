@@ -1,0 +1,21 @@
+package cn.e3mall.portal.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+/**
+ * 首页展示Controller
+ * 
+ * @author wld
+ *
+ */
+@Controller
+public class IndexController {
+	
+	@RequestMapping("/index")
+	public String showIndex(){
+		//显示主页之前，先查询轮播图列表
+		return "index";
+	}
+	
+}
